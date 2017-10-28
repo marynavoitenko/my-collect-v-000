@@ -1,6 +1,6 @@
 
-def bla
-  i = 0 
+def my_collect(array)
+  i = 0
   while i < array.length
     collection << yield
     i += 1
